@@ -83,43 +83,43 @@ console.log("we are a go!")
 /*************************************** */
 /* 1: Select the first paragraph and replace the text within the paragraph... */
 /***CODE */
-let FirstParagraph = document.querySelector('p');
+let FirstParagraph = document.querySelector("p");
 FirstParagraph.textContent = `New text in paragraph one: text changed by Sherwin on the following date: Jan 29 2025`;
 /*************************************** */
 /* 2: Select all elements in the HTML that have the class name content-container
  and change the background color ... of first and second ...*/
 /***CODE */
-let contentContainers = document.getElementsByClassName('content-container');
-contentContainers[0].style.backgroundColor = 'orange';
-contentContainers[1].style.backgroundColor = 'purple';
+let contentContainers = document.getElementsByClassName("content-container");
+contentContainers[0].style.backgroundColor = "orange";
+contentContainers[1].style.backgroundColor = "purple";
 
 /*************************************** */
 /* 3: Change the src element of the first image element on the page to be ...
 /***CODE */
-let firstImage = document.querySelector('img');
-firstImage.src = 'task-1-images/seven.png';
+let firstImage = document.querySelector("img");
+firstImage.src = "task-1-images/seven.png";
 
 /*************************************** */
 /* 4: Select the third paragraph element on the page and 
 replace the content (within the paragraph) to be an h2 element which contains the text `TEST 123`
 /***CODE */
-let thirdParagraph = document.querySelectorAll('p')[2];
-thirdParagraph.innerHTML = '<h2>TEST 123</h2>'
+let thirdParagraph = document.querySelectorAll("p")[2];
+thirdParagraph.innerHTML = "<h2>TEST 123</h2>"
 
 /*************************************** */
 /* 5: Select the fourth paragraph element on the page and 
 add to the existing content an h2 element containing the text `TEST 123`
 /***CODE */
-let fourthParagraph = document.querySelectorAll('p')[3];
-fourthParagraph.innerHTML += '<h2>TEST 123</h2>';
+let fourthParagraph = document.querySelectorAll("p")[3];
+fourthParagraph.innerHTML += "<h2>TEST 123</h2>";
 
 /*************************************** */
 /* 6: Select the fifth paragraph element on the page and add to the existing content 
 an img element that holds `one.png`, and add the class newStyle to said paragraph element.
 /***CODE */
-let fifthParagraph = document.querySelectorAll('p')[4];
+let fifthParagraph = document.querySelectorAll("p")[4];
 fifthParagraph.innerHTML += '<img src="task-1-images/one.png">';
-fifthParagraph.classList.add('newStyle');
+fifthParagraph.classList.add("newStyle");
 
 /*************************************** */
 /* 7: Add the following array variable: let colors = ['red','blue','green','orange'];, 
@@ -129,14 +129,15 @@ assign the element from innerContainers variable with the same index
 (i.e. colors[0] should be allocated to the first innerContainers element, colors[1] to the second, etc ...) 
 a background using that color.
 /***CODE */
-let colors = ['red', 'blue', 'green', 'orange'];
-const InnerContainers = document.getElementsByClassName('inner-container');
+let colors = ["red", "blue", "green", "orange"];
+const InnerContainers = document.getElementsByClassName("inner-container");
 
 colors.forEach((color, index) => {
     if (InnerContainers[index]) {
         InnerContainers[index].style.backgroundColor = color;
     }
 });
+
 
 
 /*************************************** */
