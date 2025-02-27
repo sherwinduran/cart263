@@ -128,10 +128,10 @@ let garden = {
 
  
  let weeds = [];
- let WeedSize = 150;
+ let WeedSize = 180;
 
  // create weeds
- for (let i = 0; i < 5; i++) {
+ for (let i = 0; i < 3; i++) {
    let weed = new Weed(Math.random() * (window.innerWidth), Math.random() * 120, WeedSize);
    weeds.push(weed);
  }
