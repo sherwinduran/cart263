@@ -7,7 +7,7 @@ Our project is a fun and interactive trivia quiz video game where players guess 
 
 To build our quiz game, we made the structure in a clean and organized way. Instead of making a separate HTML element for each question, we used arrays in JavaScript to store the questions, which made everything easier to manage. We also added sound effects for right and wrong answers, and included the sources for those sounds in our JavaScript file, along with the images of the video game logos.
 
-We also added a timer so the players can feel the pressure and stay focused. We then included a progress bar to show how far along the users are in the quiz. As it goes up, it reflects how many questions the users has answered correctly. We used CSS to style the buttons so that they can stand out and look clickable, this helps the players know what to do next. We had a little trouble setting the background image at first, but Sabine was able to figure it out and fix it.
+We also added a timer so the players can feel the pressure and stay focused. We then included a progress bar to show how far along the users are in the quiz. As it goes up, it reflects how many questions the users have answered correctly. We used CSS to style the buttons so that they can stand out and look clickable, this helps the players know what to do next. We had a little trouble setting the background image at first, but Sabine was able to figure it out and fix it.
 
 ## Changes/Feedbacks From Peers
 After our demo presentation, we got great feedbacks from our peers. Some people suggested adding a final score at the end and a reset button, which we thought were great ideas. Ethan and I were able to add both of these features to the game, and we think it really made the project even better.
