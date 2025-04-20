@@ -1,6 +1,7 @@
 # Ultimate Logo Clash: Guess The Video Game Logos
 Sherwin Duran and Ethan Armstrong
 
+[View this project online](https://sherwinduran.github.io/cart263/FinalProject_Sherwin_Ethan/)
 
 ## Artists' Statement
 Our project is a fun and interactive trivia quiz video game where players guess logos from different video games. We wanted to make something competitive and fast-paced to keep players engaged. Since we both enjoy playing video games, we thought that it would be a great idea to turn that into a quiz game for our project.
