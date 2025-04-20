@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Project</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Tiny5&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Pixelify+Sans:wght@400..700&family=Play:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Funnel+Display:wght@300..800&family=Pixelify+Sans:wght@400..700&family=Play:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+  
+  <script src="js/libraries/p5.min.js"></script>
+  <script src="js/libraries/p5.sound.min.js"></script>
+
+</head>
+
+<body>
+  <div id="start-screen" class="container">
+    <h1>Ultimate Logo Clash: Guess The Video Game Logos</h1>
+    <p>Right answers stack your streak. Fill it before time runs out!</p>
+    <button id="start-btn">Start Game</button>
+  </div>
+
+  <div id="quiz-screen" class="container" style="display:none;">
+    <div class="image-container">
+        <img src="" alt="Logo" class="center-image">
+    </div>
+
+    <div class="timer" id="timer-text"></div>
+
+    <div class="question" id="question-text"></div>
+
+    <div class="options" id="options-container"></div>
+
+    <button class="next-btn" id="next-btn">Next</button>
+
+    <button class="restart-btn" id="restart-btn">Restart</button>
+    
+  </div>
+
+  <div id="bottle-container">
+    <div id="bottle">
+      <div id="water"></div>
+    </div>
+  </div>
+
+  <canvas class="confetti" id="confetti"></canvas>
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
